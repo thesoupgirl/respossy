@@ -36,7 +36,7 @@ def div(a, b):
 # Exponent function
 # a to the b power
 def exp(a, b):
-	return a ** b
+    return a ** b
 
 
 def mod(a, b):
@@ -76,8 +76,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
-		elif (op == "**"):
-			print "Result: ", exp(a, b)
+        elif (op == "**"):
+            print "Result: ", exp(a, b)
 		elif (op == "%"):
 			print "Modulo: ", mod(a, b)
         else:
